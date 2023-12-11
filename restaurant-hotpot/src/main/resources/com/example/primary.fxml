@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="stage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+   minWidth="-Infinity" prefHeight="875.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19"
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.RestaurantController">
+   <children>
+      <ImageView fitHeight="875.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/imgs/escenario.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="empezar" layoutX="35.0" layoutY="38.0" mnemonicParsing="false"
+         onMouseClicked="#empezarOnMouseClicked" style="-fx-background-color: FFF;" text="Empezar">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="mesas" layoutX="790.0" layoutY="50.0" textFill="#1b0909">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Hotpot_Spicy" fitHeight="27.0" fitWidth="87.0" layoutX="277.0"
+         layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/hotpot_Spicy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Hotpot_Fortune" fitHeight="27.0" fitWidth="87.0" layoutX="399.0"
+         layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/hotpot_Fortune.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Hotpot_Chicken" fitHeight="27.0" fitWidth="87.0" layoutX="519.0"
+         layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/hotpot_Chicken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Hotpot_Bejing" fitHeight="27.0" fitWidth="87.0" layoutX="638.0"
+         layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/hotpot_Bejing.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Bok_Choy" fitHeight="27.0" fitWidth="87.0" layoutX="755.0" layoutY="229.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/bok_Choy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Edamame" fitHeight="27.0" fitWidth="87.0" layoutX="405.0" layoutY="405.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/edamame.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Enoki" fitHeight="27.0" fitWidth="87.0" layoutX="277.0" layoutY="405.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/enoki.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Tangyuan" fitHeight="27.0" fitWidth="87.0" layoutX="527.0" layoutY="557.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/tangyuan.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Galanga" fitHeight="27.0" fitWidth="87.0" layoutX="762.0" layoutY="405.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/galanga.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Tausi" fitHeight="27.0" fitWidth="87.0" layoutX="650.0" layoutY="405.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/tausi.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Salt" fitHeight="27.0" fitWidth="87.0" layoutX="764.0" layoutY="715.0"
+         pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/salt.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Yunnan_Mint" fitHeight="27.0" fitWidth="87.0" layoutX="528.0"
+         layoutY="715.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/yunnan_Mint.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="112.0" layoutX="621.0" layoutY="19.0"
+         pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/imgs/cocinero.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
